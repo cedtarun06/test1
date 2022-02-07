@@ -1,37 +1,18 @@
-
-#design{
-    width: 300px;
-    border: 1px solid rgb(14, 14, 14);
-    padding: 50px;
-    margin: 20px;
-    display: none;
-    justify-self: start,end,center,stretch;
-}
-
-#design1{
+.design {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #222425;
+    padding: 6px;
+  }
+  .design2 {
     background-color: orange;
-    position: absolute;
-    right: 0;
-    width: 300px;
-    border: 1px solid rgb(14, 14, 14);
-    padding: 50px;
-    margin: 20px;
-    align-content: flex-end;
+    text-align: center;
 }
-#design2{
-    background-color: grey;
-    width: 300px;
-    border: 1px solid rgb(14, 14, 14);
-    padding: 50px;
-    margin: 20px;
-    align-content: flex-end;
-}
-#design3{
-    background-color: rgb(155, 155, 155);
-    width: 300px;
-    border: 1px solid rgb(14, 14, 14);
-    padding: 50px;
-    margin: 20px;
-    align-content: flex-en
-
-}
+  .design1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
